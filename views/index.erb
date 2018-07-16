@@ -1,5 +1,5 @@
-<% if 1 == 2 %>
-  <p>1 equals 2.</p>
+<% if logged_in? %>
+  <a href="/logout">Click here to Log Out</a>
 <% else %>
-  <p>1 does not equal 2.</p>
+  <a href="/login">Click here to Log In</a>
 <% end %>
